@@ -1,0 +1,13 @@
+Instructions to execute the simulation algorithm:
+	1. To give custom inputs to the alogrithm, use the command
+		
+		$ python3 CS19B005.py -i 4 -m 1.5 -n 1 -f 0.3 -s 0.9 -T 500 -o out
+
+	The parameter values 4, 1.5, 1, 0.3, 0.9, 500 and "out" in the above command can be changed.
+	This command will generate three files, out.txt (output text file) in the "OutputFiles" directory and out-1.jpg (cwd vs update no.), out-2.jpg (cwd vs transmission round)  in the "Plots" directory.
+	
+	2. To run the simulation for all the 32 possible input combinations given the question, run the 'Runner.py' script.
+
+		$ python3 Runner.py
+
+	Two directories "Plots" and "OutputFiles" will be created, which will contain the plots (test*-1.jpg and test*-2.jpg) & output files (test*.txt) for each combination of inputs respectively.
